@@ -114,7 +114,7 @@ async def cat_meeme(upper_text, lower_text, picture_name, endname):
     lower_text = "\n".join(wrap(lower_text, get_warp_length(main_image.width))).upper()
     lower_margin = MARGINS[lower_text.count("\n")]
     text_draw = Drawing()
-    text_draw.font = join(getcwd(), "userbot/helpers/styles/impact.ttf")
+    text_draw.font = join(getcwd(), "wolf/helpers/styles/impact.ttf")
     text_draw.font_size = 100
     text_draw.text_alignment = "center"
     text_draw.stroke_color = Color("black")
