@@ -45,7 +45,7 @@ async def a():
      import_module(f"wolf.modules.{cr}")
      la += 1
      LOGS.info(f" loaded {la}/{f} modules")  
-  #os.system("rm userbot/modules/*.py") ; 
+  #os.system("rm wolf/modules/*.py") ; 
   LOGS.info(f"Sucessfully connected with {o}{o2}{o3}{o4} check it by typing !wolf in any client's chat, type  .help for more info. For official plugin channel for wolf got to @wolfplugin and for more expirementaal plugin goto @plugins20 Also U Should Thank to All Contributers in repo:https://github.com/MrSammyXD/wolfuserbot")
 
   if len(argv) not in (1, 3, 4):
